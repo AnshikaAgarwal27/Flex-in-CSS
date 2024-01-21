@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    background-color:rgb(210, 211, 214);
+    display:flex;
+    justify-content:center;
+    font-family:'Lucida Sans';
+    align-items: center;
+    gap:20px;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+.free{
+    height: auto;
+    width: 200px;;
+    padding: 40px;
+    color: rgb(7, 7, 88);
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(7, 7, 88, 0.25);
+    border-radius: 2.5%;
+}
+.basic{
+    height: auto;
+    width:200px;;
+    background-color:rgb(7, 7, 88);
+    color:beige;
+    border: 2px solid rgb(245, 245, 245, 0.5);
+    border-radius: 2.5%;
+    padding: 40px;
+    /* flex-shrink: 1; */
+}
+.pro{
+    height: auto;
+    width:200px;
+    background-color:beige;
+    color:rgb(7, 7, 88);
+    border: 2px solid  rgb(7, 7, 88, 0.25);
+    border-radius: 2.5%;
+    padding: 40px;
+    /* border-:antiquewhite; */
+    
+}
+li{
+    list-style-type:none;
+}
+button{
+    height: 40px;
+    width: 150px;
+    border-radius: 100px;
+    padding:5px;
+    margin:30px;
+    font-family: sans-serif;
+    font-weight:bold;
+
+}
+.darkbtn{
+    background-color: rgb(7, 7, 88);;
+    color: antiquewhite;
+}
+.lightbtn{
+    background-color:rgb(255, 255, 255);
+    color: rgb(7, 7, 88);;
+    margin:30px;
+}
+.subsbutton{
+    display: flex;
+    justify-content: center;
+    margin:35px auto;
+}
+.features{
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+}
+.price{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+.plan-for{
+    font-size: 14px;
+}

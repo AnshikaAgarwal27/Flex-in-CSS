@@ -1,0 +1,213 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    height:100vh;
+    width:100vw;
+    font-family:sans-serif;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  .left{
+    width:900px;
+    margin:60px;
+    display:flex;
+    flex-direction: column;
+  }
+  .navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .images{
+    margin-right: 100px;
+  }
+  .navbar-logo1{
+    margin-right: 20px;
+  
+  }
+  .navbar-links{
+    display: inline-block;
+    font-weight:600;
+    margin-left:10px;
+  }
+  .Ask-Disha{
+    margin-right:10px;
+  }
+  .Contact{
+    margin-right: 20px;
+  }
+  .navbar-btn{
+    font-size: 15.5px;
+    font-weight: 550;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-radius: 7px;
+    /* border-style: hidden; */
+  
+  }
+  .-Login{
+    margin-right: 29px;
+    background-color: rgb(255, 153, 29);
+    color: aliceblue;
+    border-style: none;
+    
+  }
+  .-rgstr{
+    margin-right: 20px;
+    color:rgb(87, 85, 85);
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgba(196, 196, 196, 0.938);
+  }
+  .-agent{
+    color:rgb(87, 85, 85);
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgba(196, 196, 196, 0.938);
+  }
+  .Indian-Railways{
+    margin-top: 70px;
+    font-size:53px;
+    font-weight: 780;
+    color: rgb(48, 46, 46);
+  }
+  .slangs{
+    display:inline-block;
+    margin-right:10px;
+    font-weight:550;
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  .-safety{
+    color: rgb(44, 253, 44);
+  }
+  .-security{
+    color: rgb(255, 183, 48);
+  }
+  .-punctuality{
+    color:  rgb(34, 34, 131);
+  }
+    
+  .body-btns{
+    margin-top: 25px;
+    margin-bottom: 6px;
+    border-radius: 7px;
+    padding:3px 16px 3px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 1px;
+    /* flex-wrap: wrap;
+    align-content:stretch; */
+  }
+  .Book-ticket-btn{
+   background-color: rgb(34, 34, 131);
+   color: aliceblue;
+   margin-right: 12px;
+   border-color: rgb(66, 66, 170);
+   
+  }
+  .PNR-Status-btn{
+    margin-right: 12px;
+    border:2px solid rgba(196, 196, 196, 0.938);
+    color:rgb(48, 47, 47);
+    background-color: rgb(255, 255, 255);
+  }
+  .btn-image{
+    padding:5px;
+  }
+  
+  .Charts-Vacancy-btn{
+    background-color: rgb(255, 255, 255);
+    border:2px solid rgba(196, 196, 196, 0.938);
+    color:rgb(48, 47, 47);
+  } 
+  .journey-details{
+    display: inline-block;
+    /* margin-right: 50px; */
+    color:rgb(128, 123, 123);
+  }
+  .journey-details-cities{
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  .root-departure-detail{
+    margin-right: 80px;
+  }
+  
+  .arrow{
+    margin-right: 80px;
+  }
+  .data{
+    display: inline-block;
+  }
+  .journey-selected-data{
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 7px;
+    color:rgb(128, 123, 123);
+    padding:20px;
+  }
+  .journey-selected{
+    display: inline-block;
+  }
+  .journey-detail-info{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap:20px;
+  }
+  .other-details{
+    display: inline-block;
+  }
+  .Date-details{
+    margin-right: 50px;
+  }
+  .coach-details{
+    margin-right: 70px;
+  }
+  h5{
+    display: inline;
+  }
+  h3{
+    font-weight: 775;
+    font-size: 27px;
+    color:rgb(48, 46, 46);
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  p{
+    font-size:15px;
+  }
+  /* .departure-detail-abc {
+    display: flex;
+    flex-direction: row;
+  } */
+  /* .search{
+    display: inline;  
+  } */
+  .journey-details-cities .train-entry-img{
+    padding-bottom: 500px;;
+  }
+  .search-train{
+    /* height: 40px; */
+    width: 650px;
+    padding: 20px;
+    background-color: rgb(27, 206, 27);
+    color:white;
+    border-radius: 10px;
+    border-style: none;
+    font-size:25px;
+    font-weight: 900;
+  }
+  .hero-image{
+    width:680px;
+    height: 1047px;
+    /* margin-right: 0px; */
+    /* position:absolute; */
+    right:0px;
+  }

@@ -1,0 +1,17 @@
+The Flexbox :
+Flexible box model in CSS is a one-dimensional layout model that has flexible and efficient layouts with distributed spaces among items to control their alignment structure ie.,
+ it is a layout model that provides an easy and clean way to arrange items within a container.
+ Flexbox can be useful for creating small-scale layouts & is responsive and mobile-friendly.
+
+
+
+The CSS Grid:
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+ 
+ 
+ 
+ 
+ 
+ The basic difference between CSS grid layout and CSS flexbox layout is that flexbox was designed for layout in one dimension - either a row or a column. 
+ Grid was designed for two-dimensional layout - rows, and columns at the same time
